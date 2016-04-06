@@ -2,6 +2,5 @@
 
 char *getStudentID(char *id)
 {
-	id = (char) "1017208";
-	return id;
+	return 1017208;
 }
