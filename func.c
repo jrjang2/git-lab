@@ -1,8 +1,8 @@
 #include <string.h>
 
-char *getStudentID(char *id)
+int getStudentID(int id)
 {
 	/* Return your student id. */
-	id="1030485";
-	return id;
+	
+	return 1030485;
 }
