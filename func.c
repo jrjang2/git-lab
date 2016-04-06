@@ -3,6 +3,6 @@
 char* getStudentID(char* id)
 {
 	/* Return your student id. */
-	id="12312312";
-	return id;
+
+	return 12312312;
 }
