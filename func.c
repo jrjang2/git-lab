@@ -1,6 +1,6 @@
 #include <string.h>
 
-int getStudentID(int id)
+char* getStudentID(char* id)
 {
 	/* Return your student id. */
 	
