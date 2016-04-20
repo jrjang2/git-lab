@@ -1,7 +1,6 @@
-char *getStudentID(char *id)
-  {
-  	/* Return your student id. */
- 	*id = "1017208";
-  
-  	return id;
-  }
+#include <string.h>
+char *getStudentID(char *id){
+  char myId[] = "1017208";
+  id = myId;
+  return id;
+}
