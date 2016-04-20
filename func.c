@@ -1,6 +1,6 @@
 #include <string.h>
-char *getStudentID(char &id)
+char *getStudentID(char* id)
 {
-	 id = "1017208";
+	strcpy (id, "1017028");
 	return id;
 }
