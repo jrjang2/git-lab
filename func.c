@@ -1,6 +1,6 @@
 #include <string.h>
 char *getStudentID(char *id){
-  char myId[] = "1017208";
+  char myId[] = "101720";
   id = myId;
   return id;
 }
