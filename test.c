@@ -9,7 +9,7 @@ int check1(char m)
 {
 	if (m >= '0' && m <= '9')
 		return 0;
-
+	else
 	printf("Check 1 is fail! Please give 7 digit numbers!\n");
 	return 1;
 }
@@ -18,7 +18,7 @@ int check2(int m)
 {
 	if (m == LEN)
 		return 0;
-
+	else
 	printf("Check 2 is fail! Over length!\n");
 	return 1;
 }
