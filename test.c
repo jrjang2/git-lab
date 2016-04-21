@@ -9,16 +9,16 @@ int check1(char m)
 {
 	if (m >= '0' && m <= '9')
 		return 0;
-	else
+
 	printf("Check 1 is fail! Please give 7 digit numbers!\n");
 	return 1;
 }
 
-int check2(int m)
+int check2(char m)
 {
-	if (m == LEN)
+	if (m == '\0')
 		return 0;
-	else
+
 	printf("Check 2 is fail! Over length!\n");
 	return 1;
 }
@@ -32,11 +32,11 @@ int main()
 	output = getStudentID(id);
 
 	/* check */
-	for (int i = 0; i < LEN; i++) {
+	for (int i = 0; i < =LEN; i++) {
 		ret |= check1(output[i]);
 	}
 
-	ret |= check2(strlen(output));
+	ret |= check2(output[LEN+1]);
 
 	return ret;
 }
