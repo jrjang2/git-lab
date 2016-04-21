@@ -31,7 +31,7 @@ int main()
 	output = getStudentID(id);
 
 	/* check */
-	for (int i = 0; i <= LEN; i++) {
+	for (int i = 0; i < LEN; i++) {
 		ret |= check1(output[i]);
 	}
 
