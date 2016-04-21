@@ -35,7 +35,7 @@ int main()
 		ret |= check1(output[i]);
 	}
 
-	ret |= check2(output[LEN + 1]);
+	ret |= check2(output[LEN]);
 
 	return ret;
 }
