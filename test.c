@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 #define LEN 7
 
@@ -13,9 +14,9 @@ int check1(char m)
 	return 1;
 }
 
-int check2(char m)
+int check2(int m)
 {
-	if (m == '\0')
+	if (m == LEN)
 		return 0;
 
 	printf("Check 2 is fail! Over length!\n");
@@ -35,7 +36,7 @@ int main()
 		ret |= check1(output[i]);
 	}
 
-	ret |= check2(output[LEN]);
+	ret |= check2(strlen(output));
 
 	return ret;
 }
