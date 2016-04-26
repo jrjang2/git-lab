@@ -9,7 +9,7 @@ int check1(char m)
 {
 	if (m >= '0' && m <= '9')
 		return 0;
-
+//
 	return 1;
 }
 
