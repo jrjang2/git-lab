@@ -10,7 +10,7 @@ int check1(char m)
 	if (m >= '0' && m <= '9')
 		return 0;
 
-	return 1;
+	return 1; //
 }
 
 int check2(char *output)
@@ -23,7 +23,7 @@ int check2(char *output)
 		return 0;
 	else
 		printf("Check 2 is fail! Student id length is incorrect!\n");
-
+//
 	return 1;
 }
 
