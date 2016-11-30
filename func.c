@@ -3,6 +3,6 @@
 char *getStudentID(char *id)
 {
 	/* Return your student id. */
-
-	return "1032993";
+	strcpy(id, "1032993");
+	return id;
 }
