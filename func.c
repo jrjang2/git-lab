@@ -2,7 +2,6 @@
 
 char *getStudentID(char *id)
 {
-	/* Return your student id. */
-
+	strcpy(id,"1032984");/* Return your student id. *	
 	return id;
 }
