@@ -2,7 +2,7 @@
 
 char *getStudentID(char *id)
 {
-	/* Return your student id. */
+	memcpy("1032534",id);
 
 	return id;
 }
